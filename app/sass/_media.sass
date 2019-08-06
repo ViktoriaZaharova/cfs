@@ -1,0 +1,645 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media screen and (max-width: 1280px)
+  .calendar__slider
+    .slick-prev
+      left: 0
+    .slick-next
+      right: 0
+
+
+@media screen and (max-width: 1250px)
+  .news__slider
+    .slick-prev
+      left: 20px
+    .slick-next
+      right: 20px
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  .container
+    width: 100%
+
+  .header__menu
+    li
+      a
+        font-size: 14px
+        padding: 5px
+
+  .main__slider
+    .slide
+      .text
+        width: 100%
+        .title
+          max-width: 65%
+
+  .table-month .num
+    padding: 0 5px 10px
+
+  .calendar
+    justify-content: space-around
+
+@media screen and (max-width: 1050px)
+  .page-head
+    .container
+      .page-head__content
+        .diagramm-wrapper
+          flex-direction: column
+          align-items: center
+          .image
+            margin: 0 0 20px 0
+
+  .table-month .num
+    padding: 0 0 5px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1010px)
+  .btn-mobile-menu
+    display: flex
+
+  .header__menu
+    display: none
+
+  .header
+    .block-right
+      .language
+        display: none
+
+  .about
+    .container
+      padding: 34px 10px 40px
+
+  h1
+    font-size: 30px
+
+@media screen and (max-width: 940px)
+  .contacts
+    .container
+      flex-direction: column
+      align-items: center
+      padding: 34px 10px
+      .contacts__address, .contacts__form
+        width: 100%
+        padding: 0
+      .contacts__form
+        padding: 20px 0
+        border: none
+          top: 1px solid #EEEEEE
+        margin: 20px 0 0 0
+
+
+@media screen and (max-width: 870px)
+  .month-max
+    width: 99%
+
+  .month-min
+    border: none
+  .slick-prev
+    left: 20px
+
+  .slick-next
+    right: 20px
+
+  .main__slider
+    .slide
+      .text
+        .title
+          max-width: 95%
+          font-size: 36px
+          line-height: 42px
+
+  .cfs-numbers
+    .container
+      padding: 34px 10px 0
+      .cfs-numbers__content
+        .item
+          margin: 0 0 40px
+
+  .maps-filter
+    left: 30px
+    top: 20px
+
+  .number-sto
+    top: 20px
+    right: 30px
+
+  .customers
+    .container
+      padding: 0 10px
+
+  .news__slider
+    .slick-prev, .slick-next
+      display: none !important
+
+  .popup-block
+    padding: 34px 26px
+
+  .form-vin
+    justify-content: center
+    input
+      margin: 0 8px 0 0
+
+  .table
+    .table-header
+      th
+        font-size: 14px
+    td, th
+      font-size: 14px
+      padding: 0 10px
+      input
+        padding: 9px 12px
+        font-size: 12px
+      select
+        padding: 9px 12px
+        font-size: 12px
+      .select-group
+        label
+          .select-arrow
+            top: 15px
+    tr
+      th, td
+        padding: 0 10px
+
+@media screen and (max-width: 790px)
+  .button-group
+    .button-group__top
+      flex-direction: column
+      align-items: flex-start
+      a
+        margin: 0 0 30px
+        width: 100%
+    .button-group__bottom
+      flex-direction: column
+      align-items: flex-start
+      .box, a
+        width: 100%
+      textarea
+        width: 100%
+        height: 120px
+        margin-bottom: 40px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .maps
+    padding: 34px 0
+
+  .news, .faq
+    .container
+      padding: 34px 10px
+
+  .panel_heading
+    h3
+      padding-right: 30px
+
+  .footer__menu
+    flex-direction: column
+    align-items: center
+    li
+      a
+        margin-bottom: 20px
+        text-align: center
+        padding: 0
+
+  .footer
+    .container
+      .footer__top
+        flex-direction: column
+        align-items: center
+        padding: 35px 0
+      .footer__bottom
+        padding: 29px 0 35px
+        .copyring
+          text-align: center
+
+@media screen and (max-width: 715px)
+  .table-options, .table-applications
+    min-width: 710px
+
+  .block-details
+    .line-filter
+      flex-direction: column
+      align-items: flex-start
+      .input-group
+        margin: 10px 0 0 0
+
+  .add-more-form
+    width: 100%
+    .box
+      label
+        width: 100%
+
+  .table-month
+    .num
+      width: 14px
+      height: 9px
+      p
+        font-size: 8px
+
+  .month__day
+    th
+      font-size: 8px
+      width: 14px
+      height: 9px
+
+  .month-max
+    width: 300px
+    .table-month
+      .output
+        background: transparent
+        p
+          color: $text
+      td
+        width: 40px
+        height: 40px
+        padding: 9px 0
+        border: none
+        text-align: center
+        .num
+          text-align: center
+          justify-content: center
+          align-items: center
+          p
+            font-size: 16px
+            font-weight: normal
+            color: $text
+            margin: 0
+        .num-green
+          p
+            background: #219653
+            color: #fff
+            width: 35px
+            height: 35px
+      .bl
+        display: none
+      .month__day
+        th
+          width: 40px
+          height: 40px
+
+  .calendar__month-developments
+    display: block
+
+@media screen and (max-width: 650px)
+  .page-record, .page-calculate, .page-manager, .page-order, .page-history, .page-calendar
+    background: transparent
+
+  .page-manager, .page-order, .page-history, .page-calendar
+    h1
+      display: none
+
+  .page-calendar
+    display: none
+
+  .calendar__slider
+    margin: 34px 0 0
+
+
+
+  .mobile-block
+    display: flex
+    h1
+      display: flex
+      font-size: 26px
+      width: 190px
+      text-align: left
+
+  .page-section
+    &:before
+      display: none
+    .container
+      padding: 36px 15px
+      h1
+        font-size: 22px
+        color: #595959
+
+  .page-content
+    .container
+      padding: 0 15px 40px
+
+  .form-record
+    .line-selected
+      flex-direction: column
+      align-items: flex-start
+      p
+        font-size: 22px
+        margin: 0 0 10px
+
+  .calculate-content
+    padding: 0 0 30px 0
+
+  .table
+    tr
+      td, th
+        font-size: 12px
+
+
+  .select-arrow
+    display: none !important
+
+  .total-payable
+    .mobile-total
+      border:
+        top: 1px solid #D3D6D8
+    .button-group
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      a
+        width: 100%
+        &:first-child
+          margin-bottom: 20px
+      .btn-orange
+        margin: 0
+        width: 100%
+
+  .page-head
+    .container
+      .page-head__content
+        flex-direction: column
+        align-items: center
+        margin: 47px 0
+        .diagram
+          width: 100%
+          h3
+            font-size: 20px
+
+  .planing
+    .add-more-form .box label
+      width: 100%
+
+
+@media screen and (max-width: 600px)
+  .popup-block
+    h3
+      font-size: 20px
+      line-height: 29px
+    .description
+      flex-direction: column
+      align-items: center
+      .text
+        width: 100%
+        font-size: 12px
+        line-height: 18px
+      .image
+        margin: 0 0 20px 0
+
+  .form-vin
+    input
+      width: 194px
+
+  #modal-message
+    padding: 34px 27px
+    h3
+      line-height: 29px
+      text-align: center
+
+  .form
+    .btn-accent
+      width: 100%
+    textarea
+      height: 143px
+
+
+  .cabinet-manager
+    .container
+      .table
+        .table-footer
+          display: none
+
+  .mobile-total
+    display: flex
+    width: 100%
+    ul
+      width: 100%
+      li
+        display: flex
+        flex-direction: row
+        align-items: center
+        padding: 7px 0
+        font-weight: 500
+        font-size: 12px
+        p
+          width: 30%
+        span
+          font-weight: normal
+
+  .table-month .num p
+    width: 11px
+    height: 11px
+
+  .month-min .month__title
+    font-size: 8px
+
+  .calendar__slider .slick-arrow
+    top: 2%
+
+  .calendar__total
+    display: none
+
+  .calendar__mobile
+    display: block
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 570px)
+
+  .header
+    .container
+      .btn-cabinet
+        border: none
+        padding: 0
+        margin: 0 0 0 15px
+        p
+          display: none
+
+  .btn-desktop
+    display: none
+
+  .btn-mobile-menu
+    margin-left: 20px
+
+  .btn-mobile
+    display: flex
+
+  h1, h2
+    font-size: 22px
+
+  .content
+    .section-cabinet-manager
+      display: flex
+      .container
+        flex-direction: column-reverse
+        p, h4, a
+          font-size: 12px
+        .contacts__form
+          margin: 0 0 20px
+          border: none
+            bottom: 1px solid #EEEEEE
+
+
+  .about
+    .text
+      max-height: 150px
+      overflow: hidden
+      p
+        font-size: 12px
+        line-height: 24px
+
+
+  .services__list
+    a
+      max-width: 30px
+      svg
+        width: 100%
+        height: auto
+
+  .maps
+    padding-bottom: 0
+    .maps__wrapper
+      height: 638px
+
+
+  .gm-style .gm-style-iw div
+    width: 250px
+
+  .customers, .faq, .number-sto, .contacts
+    display: none
+
+  .news__item
+    max-width: 301px
+    .image
+      height: 224px
+    .news__item-body
+      a
+        max-height: none
+        font-size: 20px
+      .text
+        max-height: none
+
+  .form-record
+    width: 100%
+    .input-group
+      width: 100%
+      margin-bottom: 22px
+    .btn-accent
+      width: 100%
+    .select-group
+      .line
+        flex-direction: column
+        align-items: flex-start
+        .date
+          margin: 0 0 22px 0
+
+  .block-details
+    .line-filter
+      margin: 20px 0
+      p
+        min-width: 85px
+      .input-group
+        flex-direction: column
+        align-items: flex-start
+        .box
+          margin: 0 0 20px
+          input
+            width: 135px
+      .select-group
+        margin-bottom: 20px
+        select
+          width: 135px
+
+  .total-payable .table .table-footer .table-row
+    width: 400px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 520px)
+  .slick-arrow
+    display: none !important
+
+  .calendar__slider .slick-arrow
+    display: block !important
+
+  .main__slider
+    max-height: 360px
+    .slide
+      min-height: 360px
+      .text
+        .title
+          font-size: 24px
+          line-height: 30px
+          max-width: 100%
+        p
+          max-width: 58%
+          margin: 0 auto
+
+  .slick-dots
+    bottom: 32px
+
+  .cfs-numbers
+    .container
+      .cfs-numbers__content
+        flex-direction: column
+        align-items: center
+
+  .page-add-more
+    .container
+      .links-accent
+        width: 100%
+
+  .add-more-form
+    .box
+      flex-direction: column
+      align-items: flex-start
+      span
+        margin-top: 20px
+      &:first-child
+        span
+          margin: 0
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 420px)
+  .form-vin
+    button
+      width: 100%
+      margin: 22px auto 0
+      order: 1
+
+  .page-manager-content .line
+    flex-direction: column
+    align-items: flex-start
+    .links-accent
+      margin: 16px 0 0 0
+
+  .page-info
+    margin: 0 0 20px
+    .text
+      ul
+        li
+          font-size: 12px
+
+  .month-min
+    padding: 0 5px
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+  /**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+  /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+  /**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  /**/
+

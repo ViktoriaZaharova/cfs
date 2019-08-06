@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>CAR FLEET SERVICE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+<div id="mobile-menu">
+    <span class="close">
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.7607 -3.86887e-06L16 1.23686L9.23787 7.99971L16 14.762L14.7613 16L8 9.23772L1.23872 16L-3.76058e-06 14.762L6.76273 7.99971L-3.16938e-06 1.23686L1.23929 -4.45991e-06L8 6.76142L14.7607 -3.86887e-06Z"/>
+        </svg>
+    </span>
+    <div class="menu-body">
+        <ul class="menu">
+            <li><a href="#">Инфо о CFS</a></li>
+            <li><a href="#">Карта СТО</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+
+        <a href="#" class="language">
+            <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.35 18.92 8ZM12 4.04C12.83 5.24 13.48 6.57 13.91 8H10.09C10.52 6.57 11.17 5.24 12 4.04ZM4.26 14C4.1 13.36 4 12.69 4 12C4 11.31 4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12C7.5 12.68 7.56 13.34 7.64 14H4.26ZM5.08 16H8.03C8.35 17.25 8.81 18.45 9.41 19.56C7.57 18.93 6.04 17.66 5.08 16ZM8.03 8H5.08C6.04 6.34 7.57 5.07 9.41 4.44C8.81 5.55 8.35 6.75 8.03 8ZM12 19.96C11.17 18.76 10.52 17.43 10.09 16H13.91C13.48 17.43 12.83 18.76 12 19.96ZM14.34 14H9.66C9.57 13.34 9.5 12.68 9.5 12C9.5 11.32 9.57 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.68 14.43 13.34 14.34 14ZM14.59 19.56C15.19 18.45 15.65 17.25 15.97 16H18.92C17.96 17.65 16.43 18.93 14.59 19.56ZM16.36 14C16.44 13.34 16.5 12.68 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.69 19.9 13.36 19.74 14H16.36Z"
+                          fill="#43484D"/>
+                </svg>
+            </span>
+            Русский
+        </a>
+    </div>
+</div>
+
+<header class="header">
+
+
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+        <ul class="header__menu">
+            <li><a href="#">Инфо о CFS</a></li>
+            <li><a href="#">Карта СТО</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+
+        <div class="block-right">
+            <a href="#modal-record" class="btn-accent btn-desktop btn-modal">Записаться на СТО</a>
+
+            <a href="#modal-record" class="btn-accent btn-mobile btn-modal">Записаться</a>
+
+            <a href="#" class="btn-default btn-cabinet">
+            <span class="icon">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M18 16.0707C18 14.8553 16.1672 14.1801 15.2412 13.8135C14.6817 13.582 14.1029 13.3505 13.5434 13.0997C12.791 12.7524 12.0193 12.3473 11.4598 11.7106C11.2669 11.4791 11.1511 11.3248 11.1511 11.0161C11.1511 10.5723 11.2669 10.1286 11.3633 9.70418C11.5177 9.04823 11.8457 8.50804 12.1158 7.89068C12.4244 7.11897 12.5402 6.30868 12.6945 5.51768C12.7524 5.17042 12.8489 4.84244 12.8489 4.49518C12.8489 2.10289 11.5949 0 8.99035 0C6.38585 0 5.13183 2.10289 5.13183 4.49518C5.13183 4.84244 5.24759 5.17042 5.30547 5.51768C5.4791 6.30868 5.57556 7.11897 5.90354 7.89068C6.17363 8.50804 6.5209 9.04823 6.65595 9.70418C6.7717 10.1286 6.86817 10.5723 6.86817 11.0161C6.86817 11.3248 6.75241 11.4791 6.55949 11.7106C6 12.3473 5.2283 12.7524 4.47588 13.0997C3.9164 13.3698 3.33762 13.582 2.77814 13.8135C1.85209 14.1994 0 14.8553 0 16.0707V18H18V16.881V16.0707Z"
+                          fill="#445384"/>
+                </svg>
+            </span>
+                <p>Войти в кабинет</p>
+            </a>
+
+            <a href="#" class="language">
+            <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM18.92 8H15.97C15.65 6.75 15.19 5.55 14.59 4.44C16.43 5.07 17.96 6.35 18.92 8ZM12 4.04C12.83 5.24 13.48 6.57 13.91 8H10.09C10.52 6.57 11.17 5.24 12 4.04ZM4.26 14C4.1 13.36 4 12.69 4 12C4 11.31 4.1 10.64 4.26 10H7.64C7.56 10.66 7.5 11.32 7.5 12C7.5 12.68 7.56 13.34 7.64 14H4.26ZM5.08 16H8.03C8.35 17.25 8.81 18.45 9.41 19.56C7.57 18.93 6.04 17.66 5.08 16ZM8.03 8H5.08C6.04 6.34 7.57 5.07 9.41 4.44C8.81 5.55 8.35 6.75 8.03 8ZM12 19.96C11.17 18.76 10.52 17.43 10.09 16H13.91C13.48 17.43 12.83 18.76 12 19.96ZM14.34 14H9.66C9.57 13.34 9.5 12.68 9.5 12C9.5 11.32 9.57 10.65 9.66 10H14.34C14.43 10.65 14.5 11.32 14.5 12C14.5 12.68 14.43 13.34 14.34 14ZM14.59 19.56C15.19 18.45 15.65 17.25 15.97 16H18.92C17.96 17.65 16.43 18.93 14.59 19.56ZM16.36 14C16.44 13.34 16.5 12.68 16.5 12C16.5 11.32 16.44 10.66 16.36 10H19.74C19.9 10.64 20 11.31 20 12C20 12.69 19.9 13.36 19.74 14H16.36Z"
+                          fill="#43484D"/>
+                </svg>
+            </span>
+                RU
+            </a>
+
+            <a href="#" class="btn-mobile-menu">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.25 17.5H25.75V14.6667H0.25V17.5ZM0.25 10.4167H25.75V7.58333H0.25V10.4167ZM0.25 0.5V3.33333H25.75V0.5H0.25Z"
+                          fill="#313131"/>
+                </svg>
+
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="content">
+
+
+    <section class="page-add-more page-manager-content block-details">
+        <div class="container">
+
+            <h2>Добавить дополнительные: </h2>
+            <a href="#" class="links-accent">Отправить информацию</a>
+
+            <form method="post" class="add-more-form">
+                <div class="box">
+                    <span>Добавить работы:</span>
+                    <label>
+                        <input type="text" name="line">
+                        <input type="text" name="line">
+                        <input type="text" name="line">
+                    </label>
+                </div>
+
+                <div class="box">
+                    <span>Добавить запчасти:</span>
+                    <label>
+                        <input type="text" name="line">
+                        <input type="text" name="line">
+                        <input type="text" name="line">
+                    </label>
+                </div>
+
+                <textarea name="message" placeholder="Комментарий СТО к заказу"></textarea>
+
+                <a href="#" class="links-accent">Подать на согласование</a>
+            </form>
+        </div>
+    </section>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <ul class="footer__menu">
+                <li><a href="#">Инфо о CFS</a></li>
+                <li><a href="#">Карта СТО</a></li>
+                <li><a href="#">Клиенты</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+
+            <ul class="social">
+                <li><a href="#">
+                    <svg width="8" height="17" viewBox="0 0 8 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.56284 3.00665C7.12568 2.87101 6.62295 2.78059 6.16393 2.78059C5.59563 2.78059 4.37158 3.16489 4.37158 3.9109V5.69681H7.27869V8.70346H4.37158V17H1.44262V8.70346H0V5.69681H1.44262V4.18218C1.44262 1.89894 2.44809 0 4.87432 0C5.70492 0 7.19126 0.0452128 8 0.339096L7.56284 3.00665Z"/>
+                    </svg>
+                </a></li>
+                <li><a href="#">
+                    <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M15.1102 2.03247C15.1102 2.03247 15.1102 1.88729 15.1102 2.03247C14.3622 1.30659 13.4646 1.01623 12.5669 1.16141C13.4646 1.01623 13.9134 0.725881 14.063 0.580705C14.063 0.435528 14.063 0.290352 13.9134 0.290352C13.4646 0.290352 13.0157 0.435528 12.7165 0.580705C13.1654 0.290352 13.315 0.145176 13.315 0C12.8661 0 12.4173 0.290352 11.8189 0.725881C11.9685 0.435528 12.1181 0.290352 11.9685 0.145176C11.6693 0.290352 11.5197 0.435528 11.3701 0.725881C10.9213 1.16141 10.622 1.45176 10.4724 1.88729C9.87402 2.90352 9.4252 3.77458 9.12598 4.79081H8.97638C8.67717 4.35528 8.22835 3.91976 7.62992 3.6294C7.0315 3.19387 6.28346 2.90352 5.38583 2.46799C4.48819 2.03247 3.59055 1.59694 2.54331 1.30659C2.54331 2.32282 2.99213 3.19387 4.03937 3.77458C3.74016 3.77458 3.29134 3.77458 2.99213 3.91976C2.99213 4.79081 3.74016 5.51669 5.08661 5.80705C4.6378 5.80705 4.18898 5.95222 3.74016 6.24257C4.18898 7.11363 4.93701 7.40398 6.13386 7.40398C5.98425 7.54916 5.68504 7.69433 5.68504 7.69433C5.53543 7.83951 5.38583 8.12986 5.53543 8.42022C5.83465 8.85574 6.13386 9.00092 6.88189 9.00092C5.83465 10.0172 4.48819 10.5979 2.99213 10.4527C2.09449 10.4527 1.04724 10.0172 0 9.1461C1.04724 10.5979 2.54331 11.7593 4.33858 12.4851C6.43307 13.0659 8.52756 13.211 10.4724 12.6303C12.4173 12.0496 14.2126 10.8882 15.5591 9.29127C16.1575 8.42022 16.6063 7.54916 16.7559 6.6781C17.8032 6.6781 18.5512 6.38775 19 5.80705C18.7008 5.95222 17.9528 5.95222 16.9055 5.66187C17.9528 5.51669 18.7008 5.22634 18.8504 4.64564C18.1024 4.93599 17.3543 4.93599 16.6063 4.64564C16.4567 3.6294 16.0079 2.75835 15.1102 2.03247Z"/>
+                    </svg>
+                </a></li>
+                <li><a href="#">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M15.504 0H1.496C0.68 0 0 0.68 0 1.496V5.661H5.661C6.511 5.049 7.412 4.522 8.5 4.522C9.554 4.522 10.506 5.049 11.339 5.661H17V1.496C17 0.68 16.32 0 15.504 0ZM15.861 3.944C15.861 4.267 15.606 4.539 15.283 4.539H13.056C12.733 4.539 12.461 4.267 12.461 3.944V1.717C12.461 1.394 12.733 1.139 13.056 1.139H15.283C15.606 1.139 15.861 1.394 15.861 1.717V3.944ZM11.339 9.061C11.339 7.497 10.064 6.239 8.5 6.239C6.936 6.239 5.661 7.497 5.661 9.061C5.661 10.625 6.936 11.9 8.5 11.9C10.064 11.9 11.339 10.625 11.339 9.061ZM12.835 7.939C12.937 8.279 12.971 8.636 12.971 8.993C12.971 11.475 10.965 13.481 8.5 13.481C6.035 13.481 4.029 11.475 4.029 8.993C4.029 8.636 4.063 8.279 4.165 7.939H0V15.504C0 16.32 0.68 17 1.496 17H15.504C16.32 17 17 16.32 17 15.504V7.939H12.835Z"/>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+        <div class="footer__bottom">
+            <div class="copyring">
+                © 2018 Запатентованный Бренд. Все права защищены
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div id="modal-record" class="popup-block mfp-hide mfp-with-anim">
+    <h3>Для записи на СТО укажите № кузова (VIN):</h3>
+
+    <form method="post" class="form-vin">
+        <input type="text" name="vin" placeholder="VF1HTR12365438">
+        <button type="submit" class="btn-accent">Ок</button>
+    </form>
+
+    <div class="description">
+        <div class="image"><img src="img/vin.jpg" alt=""></div>
+        <div class="text">
+            Идентификационный номер транспортного средства (VIN) — уникальный код транспортного средства, состоящий из
+            17 символов. Его легко найти в техпаспорте на автомобиль.
+        </div>
+    </div>
+</div>
+
+<div id="modal-message" class="popup-block mfp-hide mfp-with-anim">
+    <h3>Ваша запись направлена специалистам CFS!
+        Ожидайте подтверждения. </h3>
+</div>
+
+<div id="overlay"></div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/map.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
